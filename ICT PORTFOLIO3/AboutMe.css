@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Allow scrolling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-y: auto; /* Enable scrolling */
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image-section {
+    flex: 0; /* Keep the image fixed to its size */
+    margin-left: 30px; /* Space between text and image */
+}
+
+.profile-image {
+    width: 250px; /* Increased image size */
+    height: 250px; /* Increased image size */
+    border-radius: 50%; /* Makes the image circular */
+    border: 4px solid white; /* Optional border for emphasis */
+    object-fit: cover; /* Ensures the image fits nicely within the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow */
+.text-section {
+    flex: 1; /* Occupies spa.text-section {
+    flex: 1; /* Occupies space on the left */
+    text-align: left; /* Left-align the text */
+}
+
+.welcome-title {
+    font-size: 5rem; /* Increased font size for the main title */
+    font-weight: bold;
+    color: white; /* Matches theme */
+    margin-bottom: 10px; /* Space below the title */
+    line-height: 1.2; /* Adjust line spacing */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+}
+
+.welcome-title .hi {
+    font-size: 7rem; /* Larger font size for "Hi!" */
+    color: #ffcc00; /* Optional highlight color */
+    text-shadow: 0 4px 8px rgba(255, 204, 0, 0.5); /* Glow effect */
+}
+
+.welcome-title .arrow {
+    font-size: 4rem; /* Larger arrow size */
+    color: #95b9db; /* Matches the theme */
+    font-weight: bold;
+}
+
+.welcome-subtitle {
+    font-size: 1.5rem; /* Increased subtitle font size */
+    color: #dcdcdc; /* Lighter text color */
+    margin-top: 5px; /* Space between title and subtitle */
+}vce on the left */
+    text-align: left; /* Left-align the text */
+}
+
+.welcome-title {
+    font-size: 5rem; /* Increased font size for the main title */
+    font-weight: bold;
+    color: white; /* Matches theme */
+    margin-bottom: 10px; /* Space below the title */
+    line-height: 1.2; /* Adjust line spacing */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+}
+
+.welcome-title .hi {
+    font-size: 7rem; /* Larger font size for "Hi!" */
+    color: #ffcc00; /* Optional highlight color */
+    text-shadow: 0 4px 8px rgba(255, 204, 0, 0.5); /* Glow effect */
+}
+
+.welcome-title .arrow {
+    font-size: 4rem; /* Larger arrow size */
+    color: #95b9db; /* Matches the theme */
+    font-weight: bold;
+}
+
+.welcome-subtitle {
+    font-size: 1.5rem; /* Increased subtitle font size */
+    color: #dcdcdc; /* Lighter text color */
+    margin-top: 5px; /* Space between title and subtitle */
+}
+}
+/* Ensure the main content expands */
+main {
+    padding: 20px;
+    min-height: 100vh; /* Ensure it fills the page */
+    margin-top: 120px; /* Offset for fixed header and nav */
+    padding-bottom: 100px; /* Prevent content from being hidden behind the footer */
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.8); /* Black semi-transparent background */
+    color: white; /* White text for the table */
+    border: 2px solid #95b9db; /* Border around the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 15px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures rounded corners are applied properly */
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for table cells */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(33, 33, 33, 0.9); /* Darker background for the header */
+    color: white; /* White text for header */
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Moving Background Animation */
+@keyframes changeBackground {
+    0% {
+        background-image: url('f1.2.gif'); /* First image */
+    }
+    50% {
+        background-image: url('f1.gif'); /* Second image */
+    }
+    100% {
+        background-image: url('f1.2.gif'); /* Back to first image */
+    }
+}
+
+body {
+    animation: changeBackground 10s infinite alternate ease-in-out;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="SchoolExperiences.css"> <!-- External CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-Portfolio</h1>
+        </div>
+         <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="SchoolExperiences.html">School Experiences</a>
+            <a href="BO.html">Browser Outputs</a>
+            <a href="Reflect.html">Reflection</a>
+            <a href="https://www.facebook.com/corrales.franchescajay.1/">Contact Me</a>
+            <a href="Credits.html">Credits</a>
+        </nav>
+    </header>
+<main class="hero">
+
+ 
+<h1 class="main-title">⋆ ˚｡⋆୨୧˚ Experiences ˚୨୧⋆｡˚⋆</h1>
+
+        <!-- First Experience (Booklandia) -->
+        <div class="experience-container">
+            <div class="video-container">
+        <video controls>
+            <source src="BOTB.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+            <div class="text-container">
+                <h2 class="experience-title">Battle of The Bands</h2>
+                <p class="experience-description">
+                
+                   The school court buzzed with excitement as 6ix, Lamig Laro, Cool Pals, Umasaginip, Padayon, Contented, Singkwenta, and Komplikado rocked the Battle of the Bands. Each band brought their own style, but Singkwenta stole the show with a powerful performance that had the crowd roaring. When they were crowned champions, the court erupted in cheers, marking an unforgettable victory.
+</p>
+            </div>
+</div>
+        <!-- Second Experience (Book Parade) -->
+<div class="experience-container">
+        <div class="image-container">
+                <img src="Streetdance.jpg" alt="Intramurals" class="experience-image">
+</div>
+    <div class="text-container">
+        <h2 class="experience-title">Streetdance</h2>
+        <p class="experience-description">
+            The school-wide competition had Grades 7 to 10 teaming up in pairs to showcase their talents. 9-Fairness and 9-Fidelity delivered a stunning all-white performance, starting with white masks, earning them*second runner-up. In the end, the Grade 10 teams claimed the championship, sealing their victory with an unforgettable act.
+        </p>
+    </div>
+</div>
+
+        <!-- Third Experience (Reading Challenge) -->
+        <div class="experience-container">
+            <div class="image-container">
+                <img src="ArtFair.jpg" alt="Intramurals" class="experience-image">
+            </div>
+            <div class="text-container">
+                <h2 class="experience-title">Art Fair</h2>
+                <p class="experience-description">
+                    My friends from 9-Family set up their own booth, and sold different kinds of felt products and they also sold stickers, pins, pet rocks, and handmade headbands.
+                </p>
+            </div>
+        </div>
+
+       <!-- Fourth Experience (Teacher's Day Video) -->
+<div class="experience-container">
+<div class="video-container">
+        <video controls>
+            <source src="OAP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="text-container">
+        <h2 class="experience-title">One Act Play</h2>
+        <p class="experience-description">
+           We had after class practice to rehearse our one act play called Out or Get out!
+        </p>
+    </div>
+</div>
+
+<!-- Fifth Experience (Skating Video) -->
+<div class="experience-container">
+    <div class="image-container">
+                <img src="MDA.jpg" alt="Intramurals" class="experience-image">
+</div>
+    <div class="text-container">
+        <h2 class="experience-title">Miting de Avance</h2>
+        <p class="experience-description">
+          After we practiced for our MAPEH PT, chacha, we went to SM Southmall to eat. We then discovered that there was a newly opened skating grounds, which we decided to try out. It was the first time I ever tried on rollerskates with a friend.  
+        </p>
+    </div>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My E-Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

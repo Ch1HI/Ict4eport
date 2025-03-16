@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="edit.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-Portfolio</h1>
+        </div>
+         <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="SchoolExperiences.html">School Experiences</a>
+            <a href="BO.html">Browser Outputs</a>
+            <a href="Reflect.html">Reflection</a>
+            <a href="https://www.facebook.com/corrales.franchescajay.1/">Contact Me</a>
+            <a href="Credits.html">Credits</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="center-text">
+<h2>  ༺ ༻  </h2>
+<h3>꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷꒷︶꒷                  ꒷꒥꒷︶꒷꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷ </h3>
+            <h2>꧁Welcome to My E-Portfolio! ꧂</h2>
+            <p>Discover my journey, experiences, and reflections.</p>
+            <div class="cta-buttons">
+                <a href="https://ch1hi.github.io/ICTPORTFOLIO-1STQUARTER/ICTPortfolio1.html?fbclid=IwZXh0bgNhZW0CMTEAAR09NB6y7eaWaM4RnMT0e6oUvR8Fgg634ty3mZjm243NbbTvtm7VNKdI-Qs_aem_ZIV02Atn6AD5h5gPfkXT3Q" class="button">1st Qtr E-Port</a>
+<a href="https://ch1hi.github.io/2ndPortfolio/2ndQuarter.html?fbclid=IwZXh0bgNhZW0CMTEAAR0jFSpacs-9sWaA22Tku72vhRMW4DkvQUxEMuXrbZfhe_ge5L3pnmJa_Cw_aem_1UQLAgr-cJdTqoIapVjckw" class="button">2nd Qtr E-Port</a>
+
+                <a href="About.html" class="button">About Me</a>
+            </div>
+      <h3> ꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷꒷︶꒷꒥꒷︶˚.꒷꒥꒷︶꒷ </h3>
+ </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My E-Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

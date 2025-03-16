@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="Reflect.css"> <!-- External CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-Portfolio</h1>
+        </div>
+        <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="SchoolExperiences.html">School Experiences</a>
+            <a href="BO.html">Browser Outputs</a>
+            <a href="Reflect.html">Reflection</a>
+            <a href="https://www.facebook.com/corrales.franchescajay.1/" target="_blank">Contact Me</a>
+            <a href="Credits.html">Credits</a>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="profile-header">
+            <div class="text-section">
+                <h1 class="welcome-title">
+                    <span class="hi">Reflection</span> <br> and Survey <span class="arrow">→</span>
+                </h1>
+            </div>
+
+            <!-- Reflection Paragraph -->
+            <div class="reflection-container">
+                <p class="reflection-paragraph">
+            This quarter in ICT felt like setting sail into the world of JavaScript, where pop-up boxes, conditional statements, and functions acted as our guiding tools. The alert(), prompt(), and confirm() functions helped us interact with users, much like a captain communicating with the crew. Meanwhile, conditional statements, such as if-else, served as our navigational maps, steering the program’s flow based on user input.
+<br> <br>
+
+Functions became the anchors of efficiency, allowing us to reuse code and streamline tasks. Mastering these concepts felt like charting new territories in web development, proving that coding requires both logic and creativity. This journey through JavaScript has strengthened my problem-solving skills and fueled my excitement for future explorations in programming.
+                </p>
+            </div>
+        </div>
+
+        <!-- Survey Section -->
+        <div class="survey-container">
+            <h2 class="survey-title">Survey Form</h2>
+            <form action="submit-survey.php" method="POST" class="survey-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Share your thoughts..."></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My E-Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

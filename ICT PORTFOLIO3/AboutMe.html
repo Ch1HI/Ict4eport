@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="edit.css"> <!-- External CSS -->
+<script type="text/javascript">
+  function show_alert() {
+            alert("In another life, I wanna be Alexandra Saint Mleux.. she's lowkey my girl crush!");
+        }
+        function checkItem() {
+            var item = document.frmItem.cmbItem.value;
+            switch (item) {
+                case "1": alert("Gracie Abrams");s
+                    break;
+                case "2": alert("Gigi Perez");
+                    break;
+                default: alert("Unknown Item");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-Portfolio</h1>
+        </div>
+         <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="SchoolExperiences.html">School Experiences</a>
+            <a href="BO.html">Browser Outputs</a>
+            <a href="Reflect.html">Reflection</a>
+            <a href="https://www.facebook.com/corrales.franchescajay.1/">Contact Me</a>
+            <a href="Credits.html">Credits</a>
+        </nav>
+    </header><main class="hero">
+    <div class="profile-header">
+        <div class="text-section">
+            <h1 class="welcome-title">
+                <span class="hi">Hi!</span> Welcome to <br> My Profile <span class="arrow">→</span>
+            </h1>
+            <p class="welcome-subtitle">Learn more about me:</p>
+        </div>
+        <div class="image-section">
+            <img src="Selfie.jpg" alt="Selfie" class="profile-image">
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Franchesca Jay N. Corrales</td>
+        </tr>
+        <tr>
+            <td>Age & Birthday</td>
+            <td>14 - June 14, 2010</td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>Reading, Writing, Watching, Sleeping, Eating, and unfortunately.. living</td>
+        </tr>
+        <tr>
+            <td>Favourite Food</td>
+            <td>Carbonara</td>
+        </tr>
+        <tr>
+            <td>Favourite Color</td>
+            <td>Blue and Red</td>
+        </tr>
+
+ <tr>
+            <td>Favourite F1 Driver</td>
+            <td> CHARLES LECLERC(˶˃ ᵕ ˂˶) .ᐟ.ᐟ</td>
+        </tr>
+ <tr>
+            <td>Favourite F1 Team</td>
+            <td> Forza Ferrari!! (Tifosi for life)</td>
+        </tr>
+
+
+        <tr>
+            <td>Favourite Artist</td>
+            <td>Charles Leclerc, Enhypen, Gracie Abrams, Gigi Perez,and Chase Atlantic</td>
+        </tr>
+<tr>
+<td> Favourite Songs </td>
+<td>  
+       <p>My top 2 on the go songs!</p>
+    <form name="frmItem">
+        <select name="cmbItem">
+            <option value="1">Risk</option>
+            <option value="2">Sailor Song</option>
+        </select>
+        <input type="button" name="combo" value="SUBMIT" onClick="checkItem()">
+    </form> </td>
+<tr>
+            <td>Secrets......?</td>
+            <td><input type="button" onclick="show_alert()" value="CLICK MEE!!!"/> </td>
+        </tr>
+    </table>
+</main>
+   <footer>
+        <p>&copy; 2024 My E-Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+

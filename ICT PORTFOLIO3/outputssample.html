@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplying Variables</title>
+    <script type="text/javascript">
+        function multiplyNumbers() {
+            var num1 = prompt("Enter the first number:");
+            var num2 = prompt("Enter the second number:");
+            
+            if (num1 !== null && num2 !== null && num1 !== "" && num2 !== "") {
+                var product = parseFloat(num1) * parseFloat(num2);
+                alert("The product of " + num1 + " and " + num2 + " is: " + product);
+            } else {
+                alert("Please enter valid numbers.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Click the button below to multiply two numbers.</p>
+    <input type="button" value="Multiply Numbers" onclick="multiplyNumbers()">
+</body>
+</html>
